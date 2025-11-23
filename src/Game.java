@@ -18,6 +18,9 @@ public class Game {
     public void iniciar() {
 
         System.out.println("=== EL AHORCADO ===");
+        System.out.println("Hola! Juguemos al ahorcado, ¿cuál es tu nombre?");
+        player.setName(scanner.nextLine());
+
         System.out.println("Jugador: " + player.getNombre());
         System.out.println("\nPulsa ENTER para escoger una palabra e iniciar el juego.");
         scanner.nextLine();
